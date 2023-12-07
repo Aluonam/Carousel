@@ -1,0 +1,50 @@
+<html>
+
+<head>
+    <title>Carousel</title>
+    <link href="./style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@500&family=Roboto+Condensed:wght@300&family=Zilla+Slab:ital@1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="cajaGeneral">
+        <div class="cajaSuperior">
+            <h1>Nuestro equipo</h1>
+            <hr>
+        </div>
+
+        <div class="cajaInferior">
+            <div class="imagenAvatar">
+                <img src="" class="fotoPerfil" id="fotoPerfilID">
+                <div class="nombreCompleto">
+                    <h2 id="tituloId" class="titulo"></h2>
+                    <h3 id="subtituloId" class="subtitulo"></h3>
+                </div>
+            </div>
+
+            <div class="textoDescripcion" id="texto">
+            </div>
+
+            <div class="flechasYBotonAleatorio">
+                <div class="flechas">
+                    <button onClick="usuarioAnterior()" class="flechaIzq quitarEstiloBtn"> 
+                        <i class="fa fa-angle-left fa-4x" aria-hidden="true"></i>
+                    </button>
+                    <button onClick="siguienteUsuario()" class="flechaDer quitarEstiloBtn">
+                        <i class="fa fa-angle-right fa-4x" aria-hidden="true"></i>
+                    </button>
+                </div>
+                <button onClick="cargaPerfil()" class="btnSorpresa">Sorpréndeme</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./carousel.js"></script>
+</body>
+
+</html>

@@ -7,13 +7,13 @@ En este proyecto se ha utilizado manejo de arrays, objetos y funciones de JavaSc
 Se han proporcionado estilados generales con CSS.
 
 
-## En qué Consiste el Proyecto:
+### En qué Consiste el Proyecto:
 
 El proyecto presenta de forma visual un equipo de trabajo mediante un carrusel. 
 En este carrusel, se muestran las imágenes, roles y descripciones de las personas que componen el equipo. 
 Los usuarios tienen la capacidad de cambiar de una persona a otra de manera manual o invocarlas alternativamente mediante un botón.
 
-## Herramientas Utilizadas:
+### Herramientas Utilizadas:
 
 JavaScript: Manejo de arrays, objetos y funciones para gestionar y presentar dinámicamente la información del equipo en el carrusel.
 Las información que aparece en el carrusel está en un array de objetos.

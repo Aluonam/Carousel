@@ -1,5 +1,6 @@
 ## CAROUSEL PROJECT
 
+![VisualizaCarrusel](image.png)
 
 Se muestra un carrusel con las personas que forman un equipo de trabajo, su imagen, sus roles y una descripcion. Se puede cambiar de uno a otro o invocarlos de forma alternativa con un botón.
 
